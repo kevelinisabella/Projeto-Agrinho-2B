@@ -7,22 +7,22 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to bottom, #fff4e2, #e0f7fa);
+  background: linear-gradient(to bottom, #e9e7f3, #e0f7fa);
   color: #464444;
   padding: 20px;
 }
 
 header {
-  background-color: #cc671f;
+  background-color: #3d0770;
   text-align: center;
   padding: 40px 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(185, 163, 219, 0.1);
 }
 
 header h1, header p {
   font-family: 'Quicksand', sans-serif;
-  color: #fff2e4;
+  color: #e9dbee;
 }
 
 header h1 {
@@ -44,7 +44,7 @@ header p {
 
 .intro h2, .galeria h2, .curiosidades h2 {
   font-size: 1.8em;
-  color: #2e7d32;
+  color: #676296;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ header p {
 }
 
 .item {
-  background-color: #f0f4c3;
+  background-color: #ebdbf8;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -93,7 +93,7 @@ footer {
 
 .rodape-centralizado {
   position: relative;
-  background: #cc671f;
+  background: #3d0770;
   color: white;
   text-align: center;
   padding: 20px 40px;
