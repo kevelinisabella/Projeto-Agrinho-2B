@@ -112,3 +112,56 @@ footer {
 .logo-parana-esquerda:hover {
   opacity: 1;
 }
+.sabores {
+  background-color: #ebdbf8;
+  padding: 40px 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.sabores h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #8b5e3c;
+  margin-bottom: 30px;
+}
+
+.sabores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.sabor-item {
+  background: #fffcf7;
+  padding: 20px;
+  border-left: 6px solid #3d0770;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.sabor-item:hover {
+  transform: translateY(-5px);
+}
+
+.sabor-item h3 {
+  color: #5d4037;
+  margin-bottom: 10px;
+}
+
+.sabor-item p {
+  font-size: 1em;
+  color: #555;
+}
+.sabor-item img {
+width: 100%; /* Faz a imagem ocupar toda a largura do item */
+height: 200px; /* Define uma altura fixa */
+object-fit: cover; /* Garante que a imagem cubra completamente o espaço, mantendo a proporção */
+border-radius: 6px; /* Borda arredondada nas imagens */
+transition: transform 0.3s ease; /* Animação para o hover */
+}
+
+.sabor-item:hover img {
+transform: scale(1.05); /* Aumenta ligeiramente a imagem ao passar o mouse */
+}
